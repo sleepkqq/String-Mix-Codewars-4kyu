@@ -7,11 +7,6 @@ public class test {
     static TreeMap<String, Integer> mapEquals = new TreeMap<>();
     static int max = 0;
 
-
-    public static void main(String[] args) {
-        System.out.println(mix("looping is fun but dangerous", "less dangerous than coding"));
-    }
-
     public static String mix(String s1, String s2) {
 
         HashMap<String, Integer> map1 = new HashMap<>();
